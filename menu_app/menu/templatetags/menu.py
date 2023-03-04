@@ -2,8 +2,6 @@ from django import template
 from django.utils.safestring import mark_safe
 from django.urls import reverse
 
-from django.db import connection
-
 from menu.models import Category
 
 
