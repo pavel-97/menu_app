@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load menu %}
+
+{% block content %}
+
+  {% if category %}
+    <h1>{{category}}</h1>
+  {% else%}
+    <h1>Main page</h1>
+  {% endif %}
+
+  {% draw_menu request %}
+
+{% endblock %}
